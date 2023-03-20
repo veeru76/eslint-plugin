@@ -83,7 +83,9 @@ rules:
   no-extra-semi: error
   no-alert: error
   dot-notation: error
-  object-shorthand: error
+  object-shorthand:
+    - error
+    - properties
   custom/name-length:
     - error
     - 30
