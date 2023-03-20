@@ -7,7 +7,7 @@ Add this as dependency in package.json
 ```
 "devDependencies": {
   ...
-  "eslint-plugin-name": "git+ssh://git@github.com:iphios/eslint-plugin.git#<commit_id>"
+  "eslint-plugin-custom": "git+ssh://git@github.com:iphios/eslint-plugin.git#<commit_id>"
   ...
 }
 ```
@@ -16,8 +16,10 @@ Add below code in `.eslintrc.yml`
 
 ```
 plugins:
-  - name
+  - custom
 
 rules:
-  name/name-length: warn
+  custom/name-length:
+    - error
+    - 30
 ```
