@@ -7,7 +7,7 @@ Add this as dependency in package.json
 ```
 "devDependencies": {
   ...
-  "eslint-plugin-custom": "git+ssh://git@github.com:iphios/eslint-plugin.git#<commit_id>"
+  "eslint-plugin-custom": "git+ssh://git@github.com:iphios/eslint-plugin.git#<commit_id>/<tag_id>"
   ...
 }
 ```
