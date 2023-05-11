@@ -75,7 +75,8 @@ rules:
   no-console: error
   no-unused-vars:
     - error
-    - argsIgnorePattern: ^_
+    - args: all
+      argsIgnorePattern: ^_
   prefer-const: error
   no-multi-str: error
   no-lonely-if: error
