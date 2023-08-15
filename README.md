@@ -21,5 +21,5 @@ plugins:
 rules:
   custom/name-length:
     - error
-    - 30
+    - 50
 ```

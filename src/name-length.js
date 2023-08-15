@@ -1,6 +1,6 @@
 'use strict';
 
-const MAX_LENGTH = 30;
+const MAX_LENGTH = 50;
 
 module.exports = {
   meta: {},
