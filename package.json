@@ -13,9 +13,10 @@
   "scripts": {
     "lint": "DEBUG=eslint:cli,eslint:file-enumerator,eslint:cli-engine,eslint:source-code-fixer eslint . --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^4.3.4"
+  },
   "devDependencies": {
-    "debug": "^4.3.4",
     "eslint": "^8.47.0",
     "eslint-plugin-custom": "file:"
   },
