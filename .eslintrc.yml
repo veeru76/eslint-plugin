@@ -14,4 +14,5 @@ rules:
   custom/name-length:
     - error
     - 50
-...
+  custom/set-promise:
+    - error
